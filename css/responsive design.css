@@ -1,0 +1,260 @@
+@media (max-width: 100em) {
+  .container {
+    padding: 0 2rem;
+  }
+  .cards-box {
+    grid-template-columns: repeat(4, 29.715rem);
+  }
+
+  .player-card {
+    height: 29.715rem;
+  }
+
+  .text-box-card {
+    top: 59%;
+  }
+
+  .oneline-name {
+    top: 73%;
+  }
+
+  .nav-two-box {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 90em) {
+  .cards-box {
+    grid-template-columns: repeat(3, 29.715rem);
+  }
+
+  .footer-two-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 74em) {
+  .nav-one-lift-box {
+    display: none;
+  }
+  .nav-one-box {
+    justify-content: flex-end;
+  }
+
+  .sponsor-line {
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 2rem;
+  }
+
+  .nav-two-hamburger-box {
+    display: inline;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .first-hide {
+    display: none;
+  }
+
+  .hide-first {
+    display: block;
+  }
+}
+
+@media (max-width: 64em) {
+  .cards-box {
+    grid-template-columns: repeat(3, 23.902rem);
+  }
+
+  .player-card {
+    height: 23.902rem;
+  }
+
+  .name-card,
+  .family-name {
+    font-size: 3rem;
+  }
+
+  .text-box-card {
+    top: 57%;
+  }
+
+  .oneline-name {
+    top: 70%;
+  }
+}
+
+@media (max-width: 59em) {
+  .footer-two-left-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 2rem;
+  }
+
+  .footer-two-section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .cards-box {
+    grid-template-columns: repeat(2, 26.035rem);
+  }
+
+  .player-card {
+    height: 26.035rem;
+  }
+
+  .footer-one-box {
+    flex-direction: column-reverse;
+    row-gap: 2rem;
+  }
+  .nav-two-lift-link-box,
+  .nav-two-text {
+    display: none;
+  }
+
+  .nav-two-box {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 39em) {
+  .sponsor-line {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+  }
+
+  .sponsor-line:first-child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rest-line-img:last-child {
+    grid-column: 3/4;
+  }
+}
+
+@media (max-width: 39em) {
+  .cards-box {
+    grid-template-columns: repeat(2, 22.548rem);
+  }
+  .player-card {
+    height: 22.548rem;
+  }
+
+  .name-card,
+  .family-name {
+    font-size: 2.5rem;
+  }
+
+  .text-box-card {
+    top: 57%;
+  }
+
+  .oneline-name {
+    top: 70%;
+  }
+  .footer-two-section {
+    align-items: flex-start;
+  }
+
+  .footer-two-left-box {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    width: 100%;
+  }
+  li {
+    width: 100%;
+  }
+  .footer-two-link {
+    display: block;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #353535;
+  }
+
+  .fotter-two-text {
+    border: none;
+  }
+}
+
+@media (max-width: 35em) {
+  .cards-box {
+    grid-template-columns: repeat(2, 15.847rem);
+  }
+  .player-card {
+    height: 15.847rem;
+  }
+
+  .text-box-card {
+    top: 45%;
+  }
+
+  .oneline-name {
+    top: 60%;
+  }
+
+  .nav-one-right-img {
+    height: 2rem;
+  }
+}
+@media (max-width: 26em) {
+  .container {
+    padding: 0 0.5rem;
+  }
+  .cards-box {
+    grid-template-columns: repeat(2, 15.847rem);
+  }
+  .player-card {
+    height: 15.847rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .cards-box {
+    grid-template-columns: repeat(2, 12rem);
+    gap: 1.5rem;
+  }
+  .player-card {
+    height: 12rem;
+  }
+
+  .name-card,
+  .family-name {
+    font-size: 2rem;
+  }
+
+  .text-box-card {
+    top: 25%;
+  }
+
+  .oneline-name {
+    top: 45%;
+  }
+  .nav-three-box {
+    padding: 0.5rem;
+  }
+  .nav-three-link:link,
+  .nav-three-link:visited {
+    font-size: 1.2rem;
+  }
+
+  .sponsor-line {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+
+  .sponsor-line:first-child {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .rest-line-img:last-child {
+    grid-column: 1/-1;
+  }
+
+  .nav-one-right-img {
+    height: 1.7rem;
+  }
+}

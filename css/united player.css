@@ -1,0 +1,153 @@
+.card-setup {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+}
+
+.card-setup:hover {
+  transform: scale(1.05);
+}
+
+.player-goalkeepers-one-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/GOALKEEPERS/1.jpg);
+}
+.player-goalkeepers-two-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/GOALKEEPERS/3.webp);
+}
+
+.player-goalkeepers-three-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/GOALKEEPERS/2.webp);
+}
+
+.player-defenders-one-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/1.jpg);
+}
+.player-defenders-two-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/2.jpg);
+}
+.player-defenders-three-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/3.webp);
+}
+.player-defenders-four-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/4.webp);
+}
+.player-defenders-five-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/5.webp);
+}
+.player-defenders-six-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/6.webp);
+}
+.player-defenders-seven-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/7.webp);
+}
+.player-defenders-eight-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/8.webp);
+}
+.player-defenders-nine-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/9.jpg);
+}
+.player-defenders-ten-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/10.jpg);
+}
+.player-defenders-eleven-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/11.jpg);
+}
+.player-defenders-twelve-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/12.jpg);
+}
+.player-defenders-tt-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/DEFENDERS/13.jpg);
+}
+
+.player-midfielders-one-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/1.jpg);
+}
+.player-midfielders-two-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/2.jpg);
+}
+.player-midfielders-three-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/3.jpg);
+}
+.player-midfielders-four-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/4.jpg);
+}
+.player-midfielders-five-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/5.jpg);
+}
+.player-midfielders-six-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/6.jpg);
+}
+.player-midfielders-seven-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/7.jpg);
+}
+.player-midfielders-eight-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/8.jpg);
+}
+.player-midfielders-nine-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/9.jpg);
+}
+.player-midfielders-ten-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/MIDFIELDERS/10.webp);
+}
+
+.player-forwards-one-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/1.jpg);
+}
+.player-forwards-two-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/2.jpg);
+}
+.player-forwards-three-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/3.jpg);
+}
+.player-forwards-four-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/4.jpg);
+}
+.player-forwards-five-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/5.jpg);
+}
+.player-forwards-six-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/6.jpg);
+}
+.player-forwards-seven-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/7.jpg);
+}
+.player-forwards-eight-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0)),
+    url(../img/player/FORWARDS/8.jpg);
+}
